@@ -26,4 +26,4 @@ pets = [
     {'name':'Libby', 'type':'Rabbit', 'age': 3},
 ]
 
-print(pets)
+print(pets[4])
