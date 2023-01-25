@@ -2,7 +2,8 @@ all_classes = ['Human-Information Behavior','Research Mthds/Law Lit','Strategic 
 
 
 #print the 3rd and 4th class from my list
-print(all_classes[2,3])
+print(all_classes[2])
+print(all_classes[3])
 
 #output sample (note this is not the correct output, I printed the 1st and 2nd):
 

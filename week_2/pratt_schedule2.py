@@ -7,6 +7,8 @@ schedule = {
 
 
 #print the list of classes for the 2nd day, and then print the name of the 2nd class on that day.
+print(schedule["tuesday"])
+print(schedule["tuesday"][1])
 
 #output sample (not the correct output, i printed the first day and first class):
 
