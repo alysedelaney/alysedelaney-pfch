@@ -163,11 +163,16 @@ schedule = {
 
 #print the name of the first class on Wednesday in room 612, with the name of the prof and when the start is.
 #please note my output formate: <class name> - <prof name> - <start time>
-class_name = schedule["wednesday"][612][0]["class"]
-prof_name = schedule["wednesday"][612][0]["prof"]
-start_time = schedule["wednesday"][612][0]["start"]
 
-print(f"{class_name} - {prof_name} - {start_time}")
+#class_name = schedule["wednesday"][612][0]["class"]
+#prof_name = schedule["wednesday"][612][0]["prof"]
+#start_time = schedule["wednesday"][612][0]["start"]
+
+#print(f"{class_name} - {prof_name} - {start_time}")
+
+print_this = schedule["wednesday"][612][0]
+
+print(f"{print_this['class']} - {print_this['prof']} - {print_this['start']}")
 
 #output sample (not the correct output:
 
