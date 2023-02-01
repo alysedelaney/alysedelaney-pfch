@@ -8,6 +8,12 @@ schedule = {
 
 #loop through each day in schedule, print the name of the day, and then loop through all the class names and print them out
 
+for day in schedule: 
+	print(day)
+	value = schedule[day]
+	for class_name in value: 
+		print(class_name)
+
 #output sample:
 
 # ❯ python3 pratt_schedule2.py

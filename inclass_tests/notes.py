@@ -1,12 +1,12 @@
 dictionary = {
-'NY': 'New York',
-'NJ': 'New Jersey',
-'MN': 'Minnesota',
-'codes': ['NY','NJ','MN'],
-'pop': {
-  'NY': 19.84,
-  'NJ': 9.27,
-  'MN': 5.71
+    'NY': 'New York',
+    'NJ': 'New Jersey',
+    'MN': 'Minnesota',
+    'codes': ['NY','NJ','MN'],
+    'pop': {
+        'NY': 19.84,
+        'NJ': 9.27,
+        'MN': 5.71
 }
 }
 

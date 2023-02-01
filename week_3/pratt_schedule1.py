@@ -3,6 +3,9 @@ all_classes = ['Human-Information Behavior','Research Mthds/Law Lit','Strategic 
 
 #loop through all the classes and print them out
 
+for classes in all_classes: 
+    print(classes)
+
 #output sample:
 
 # ❯ python3 pratt_schedule1.py
