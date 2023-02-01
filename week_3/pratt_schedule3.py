@@ -175,9 +175,6 @@ for day in schedule:
 			class_name = class_1['class']
 			print(class_name)
 
-	
-# print(schedule['monday'][612][0]['class'])
-
 #output sample:
 
 # ❯ python3 pratt_schedule3.py
