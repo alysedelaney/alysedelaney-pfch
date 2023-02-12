@@ -175,6 +175,13 @@ for day in schedule:
 			class_name = class_1['class']
 			print(class_name)
 
+# for day in schedule: 
+# 	print(day)
+# 	for room in sorted(schedule[day]):
+# 		print(room)
+# 		for c in schedule[day][room]:
+# 			print(c["class"])
+
 #output sample:
 
 # ❯ python3 pratt_schedule3.py
