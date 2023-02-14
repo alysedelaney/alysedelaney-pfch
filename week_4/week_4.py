@@ -40,3 +40,6 @@ with open('Artworks.csv') as file:
                     'file': nationality_file,
                     'csv': nationality_csv
                 }
+
+for files in nationality_dict: 
+    nationality_dict[files]['file'].close()
