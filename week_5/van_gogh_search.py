@@ -5,8 +5,8 @@ url = 'https://collectionapi.metmuseum.org/public/collection/v1/search'
 
 params = {
     'q' : 'van gogh',
-    'isOnView' : 'TRUE',
-    'hasImages' : 'TRUE'
+    'isOnView' : 'true',
+    'hasImages' : 'true'
 }
 
 r = requests.get(url, params=params)
