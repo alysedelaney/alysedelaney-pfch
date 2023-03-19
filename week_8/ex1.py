@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 artist_list = []
 
-pages = [1]
+pages = [1,2]
 
 for page in pages:
 

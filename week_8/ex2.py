@@ -2,7 +2,7 @@ import cloudscraper
 from bs4 import BeautifulSoup
 import time
 
-pages = [1]
+pages = [1,2]
 artist_hrefs = []
 
 for page in pages:
