@@ -1,6 +1,5 @@
 import cloudscraper
 from bs4 import BeautifulSoup
-import time
 
 pages = [1,2]
 artist_hrefs = []
@@ -24,7 +23,7 @@ for href in artist_hrefs:
     scraper = cloudscraper.create_scraper()
     page = scraper.get(artist_url)
     soup = BeautifulSoup(page.text, "html.parser")
-    artist_name = soup.find('h1').get_text(strip=True)
+    artist_name = soup.find('h1').text.strip()
     artist_bio = soup.find('h2').get_text(strip=True)
     artist_works = soup.find('p', {'class' : '$color/alpha:54% $typography/size:medium typography layout/margin:top:page:2'})
     if artist_works is None: 

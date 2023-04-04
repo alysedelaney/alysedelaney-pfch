@@ -14,8 +14,10 @@ for page in pages:
     soup = BeautifulSoup(page.text, "html.parser")
     artist_container = soup.find('section', {'data-grid' : 'artists'})
     artist_title = artist_container.find_all('h3', {'class':'typography'})
+
     for artist in artist_title:
         name = artist.find('span').get_text()
         artist_list.append(name)
 
 print(artist_list)
+print(len(artist_list))
