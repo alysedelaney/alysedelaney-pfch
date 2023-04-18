@@ -2,35 +2,6 @@ import requests
 import base64
 import json
 import os
-import time
-
-# Spotify API Set Up ------------------------------------------------------
-
-client_id = "5bae1e05720d486a8bef2310f63cdb05"
-client_secret = "8a701744762d47ae801d7bebf730e489"
-
-url = 'https://accounts.spotify.com/api/token'
-
-headers = {}
-data = {}
-
-message = f"{client_id}:{client_secret}" 
-message_bytes = message.encode('ascii')
-base64bytes = base64.b64encode(message_bytes)
-base64message = base64bytes.decode('ascii')
-
-headers['Authorization'] = f"Basic {base64message}"
-data['grant_type'] = "client_credentials"
-
-r = requests.post(url, headers=headers, data=data)
-
-token = r.json()['access_token']
-
-headers = {
-    "Authorization": "Bearer " + token
-}
-
-#-----------------------------------------------------------------
 
 compiled_artist_info = []
 
