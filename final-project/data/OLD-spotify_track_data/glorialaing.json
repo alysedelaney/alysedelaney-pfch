@@ -1,0 +1,42 @@
+{
+  "artist_id": "3aO4DL5c2uBGD8EUuP7sxi",
+  "artist_name": "Gloria Laing",
+  "tracks": [
+    {
+      "track_name": "Pack My Bags",
+      "track_popularity": 19,
+      "track_preview": "https://p.scdn.co/mp3-preview/1cd0afc61fe634ed036e89f4126cf0dbdcb3f10f?cid=5bae1e05720d486a8bef2310f63cdb05",
+      "track_duration": 231669,
+      "track_danceability": 0.809,
+      "track_energy": 0.217,
+      "track_key": 4,
+      "track_loudness": -9.878,
+      "track_mode": 1,
+      "track_speechiness": 0.0313,
+      "track_acousticness": 0.901,
+      "track_instrumentalness": 0.000923,
+      "track_liveness": 0.101,
+      "track_valence": 0.36,
+      "track_tempo": 110.088,
+      "track_time_signature": 4
+    },
+    {
+      "track_name": "Why Can't I Have You",
+      "track_popularity": 53,
+      "track_preview": "https://p.scdn.co/mp3-preview/1b9024e59fc624a9780700ece19086cee832da5e?cid=5bae1e05720d486a8bef2310f63cdb05",
+      "track_duration": 285209,
+      "track_danceability": 0.827,
+      "track_energy": 0.195,
+      "track_key": 7,
+      "track_loudness": -17.651,
+      "track_mode": 1,
+      "track_speechiness": 0.0638,
+      "track_acousticness": 0.662,
+      "track_instrumentalness": 0.141,
+      "track_liveness": 0.0987,
+      "track_valence": 0.229,
+      "track_tempo": 137.966,
+      "track_time_signature": 4
+    }
+  ]
+}
